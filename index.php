@@ -12,7 +12,7 @@
         </p>
         
         <a class="register" href="https://www.eventbrite.com/e/reveal-a-conference-for-your-faith-tickets-28161612140" Target="_blank">Register for this conference</a>
-       <iframe src="https://player.vimeo.com/video/212149699" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br><br> 
+		<iframe src="https://player.vimeo.com/video/212149699" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br><br> 
         <nav class="pageNav">
             <ul>
                 <li>
@@ -33,13 +33,17 @@
                         Schedule
                     </a>
                 </li>
-          <li>           <a href="https://www.paypal.com/donate/?token=UjqaYREJsXgo_ZA04uoGMVwYUZxQwMSTCcjn9sH5OvONNaJBtq32w1WDV7xCHabU4WCmB0" Target="_blank">             <img src="img/donate-small.jpg" /><br />
-           Donate
-             </a>
-                </li>        </ul>
+				<li>
+					<a href="https://www.paypal.com/donate/?token=UjqaYREJsXgo_ZA04uoGMVwYUZxQwMSTCcjn9sH5OvONNaJBtq32w1WDV7xCHabU4WCmB0" Target="_blank">
+						<img src="img/donate-small.jpg" />
+						<br />
+						Donate
+					</a>
+                </li>
+			</ul>
         </nav>
-        
-           </div>
+    </div>
+    </div>
 </section>
 
 <section>
