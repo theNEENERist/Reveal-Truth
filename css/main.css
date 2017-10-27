@@ -18,12 +18,16 @@
 		font-family: 'LuzSans-Book';
 		src: url('../font/luzro.ttf');
 	}
+	
+	.largeScreen {
+		display: none;
+	}
 
 	header, section:nth-child(even), footer {
 		background: #fff;
 		margin: 0 auto;
-		padding-left: 30px;
-		padding-right: 30px;
+		/* padding-left: 30px; */
+		/* padding-right: 30px; */
 		position: relative;
 	}
 
@@ -73,7 +77,9 @@
 	header .social {
 	  clear: right;
 	  float: right;
-	  margin: 10px 50px 0 0;
+	  margin-bottom: 10px;
+	  display: none;
+	  /*margin: 10px 50px 0 0;*/
 	}
 
 	header .email, header .facebook {
@@ -82,6 +88,7 @@
 	  margin: 0 0 0 6px;
 	  text-indent: -10000px;
 	  width: 20px;
+	  zoom: 150%;
 	}
 
 	header .email {
@@ -96,8 +103,10 @@
 		display: none;
 	}
 
-	.mobile-nav {
+	#mobile-nav {
 		background: #09243F;
+		width: 70px;
+		float: left;
 	}
 
 
@@ -135,17 +144,21 @@
 		font-family: 'Verdana';
 		overflow: auto;
 		width: 380px;
+		margin: 0 auto;
+		width: 200px;
+		/* padding-right: 70px; */
 	}
 
 	.logo img {
 		float: left;
-		margin: -5px -5px 0 -15px;
+		/*margin: -5px -5px 0 -15px;*/
+		zoom: 50%;
 	}
 
 	.logo h1 {
 		color: #09243F;
 		font-weight: normal;
-		margin: 20px 0 0 0;
+		/*margin: 20px 0 0 0;*/
 		text-transform: uppercase;
 	}
 
@@ -159,10 +172,41 @@
 
 	.search {
 		background: #f6f6f6;
-		border: 1px solid #e8e8e8;
 		border-radius: 20px;
-		float: right;
+		/* float: right; */
 		margin: 20px 20px 0 0;
+		max-height: 0px;
+		margin: 0 auto;
+		width: 250px;
+	}
+	
+	#searchDiv {
+		transition: max-height 4s;
+		max-height: 0;		
+		border: 0;
+		/* position: absolute; */
+		/* top: 30px; */
+		/* right: 0px; */
+		border: 0;
+		background: gray;
+		float: left;
+		width: 100%;
+		height: 50px;
+	}
+	
+	#search.searchOpen{
+		border: 1px solid #e8e8e8;
+	}
+	
+	.search input[type=submit].searchOpen {
+		display: inline;
+		transition: display 4s;
+		/* transition-delay: 4s; */
+	}
+		
+	#searchDiv.searchOpen, .search.searchOpen, .search input[type=text].searchOpen, .search input[type=submit].searchOpen  {
+		max-height: 500px;
+		transition: max-height 4s;
 	}
 
 	.search input[type=text] {
@@ -174,6 +218,7 @@
 		margin: 0 0 0 15px;
 		padding: 0;
 		width: 200px;
+		max-height: 0px;
 	}
 
 	.search input[type=submit] {
@@ -185,10 +230,31 @@
 		padding: 0;
 		text-indent: -10000px;
 		width: 20px;
+		max-height: 0px;
+		display: none;
+	}
+	
+	#btnSearch {
+		background: url('../img/search.png') 0 0/20px no-repeat;
+		background-color: #f6f6f6;
+		background-position: center;
+		color: #9f958b;
+		height: 28px;
+		font-size: 1em;
+		margin: 0 0 0 15px;
+		padding: 0;
+		border: 1px solid #e8e8e8;
+		border-radius: 20px;
+		float: left;
+		margin: 20px 20px 0 0;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		width: 30px;
+		cursor: pointer;
 	}
 
 	/* Content */
-
 	section {
 		padding: 40px 0;
 	}
@@ -462,50 +528,49 @@
 		text-align: center;
 	}
 
-	/*Hamburger Menu*/
-	.hamburger {
-		background:none;
-		/* position:absolute; */
-		/* top:0; */
-		/* right:0; */
-		line-height:45px;
-		padding:5px 15px 0px 15px;
-		color:#999;
-		border:0;
-		font-size:3em;
-		font-weight:bold;
-		cursor:pointer;
-		outline:none;
-		z-index:10000000000000;
-	}
-	.cross {
-		background:none;
-		/* position:absolute; */
-		/* top:0px; */
-		/* right:0; */
-		padding:7px 15px 0px 15px;
-		color:#999;
-		border:0;
-		font-size:3em;
-		line-height:65px;
-		font-weight:bold;
-		cursor:pointer;
-		outline:none;
-		z-index:10000000000000;
-	}
+	/*Hamburger Menu*/	
+.hamburger{
+	background:none;
+	/* position:absolute; */
+	/* top:0; */
+	/* right:0; */
+	line-height:45px;
+	padding:5px 15px 0px 15px;
+	color:#FFF;
+	border:0;
+	font-size:3em;
+	font-weight:bold;
+	cursor:pointer;
+	outline:none;
+	/* z-index:10000000000000; */
+}
+.cross{
+  background:none;
+  /* position:absolute; */
+  /* top:0px; */
+  /* right:0; */
+  padding:7px 15px 0px 15px;
+  color:#FFF;
+  border:0;
+  font-size:3em;
+  line-height:50px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  /* z-index:10000000000000; */
+}
 
 	/* Mobile Menu */
 	.menu{
 		z-index:1000000;
-		font-weight:bold;
-		font-size: 26px;
-		font-family: 'Arial Black', 'Arial';
-		font-weight: 900;
+		/* font-weight:bold; */
+		font-size: 28px;
+		font-family: LuzSans-Book;
+		/* font-weight: 900; */
 		width:100%;
 		background:#f1f1f1;
-		position:absolute;
+		/* position:absolute; */
 		text-align:center;
-		font-size:14px;
 		width: 15em;
 	}
 	
@@ -548,6 +613,95 @@
 		text-decoration:none;
 		color:#666;
 	}
+
+	/*new*/
+	.header .menu ul {
+	  padding: 0;
+	  margin: 0;
+	  overflow: hidden;
+	}
+	.header .menu ul li {
+	  display: inline-block;
+	  float: left;
+	  list-style: none;
+	  padding: 0 0 0 5px;
+	  margin: 0;
+	}
+	.header .menuIcon {
+	  display: none;
+	  background: rgb(9, 36, 63);
+	  text-align: center;
+	  max-height: 50px;
+	  width: 100%;
+	}
+	.header .menuIcon:hover {
+	  background: rgb(46, 46, 46);;
+	}
+	.header .menuIcon a {
+	  width: 100%;
+	  display: inline-block;
+	  color: #fff;
+	}
+	.header .menuIcon a img {
+	  vertical-align: middle;
+	}
+	
+	.header .menuIcon a .cross {
+		display: none;
+	}
+	
+	.header .menu {
+		display: none
+	}
+
+	/* @media all and (max-width: 767px) { */
+	  .header .menu {
+		max-height: 0;
+		overflow: hidden;
+		float: none;
+		text-align: center;
+		width: 100%;
+		-webkit-transition: max-height 1s;
+		-moz-transition: max-height 1s;
+		transition: max-height 1s;
+	  }
+	  .header .menu.menuOpen {
+		max-height: 1000px;
+		-webkit-transition: max-height 3s;
+		-moz-transition: max-height 3s;
+		transition: max-height 3s;
+	  }
+	  .header .menu ul li {
+		display: block;
+		width: 100%;
+		background: rgb(46, 46, 46);
+		border-top: 1px solid #4d4d4d;
+	  }
+	  .header .menu ul li:hover {
+		background: rgb(46, 46, 46);
+	  }
+	  .header .menu ul li a {
+		color: #fff;
+		text-shadow: #848484 0px 1px 2px;
+		padding: 10px 0;
+		width: 100%;
+	  }
+	  .header .menuIcon, .header .menu {
+		display: inline-block;
+	  }
+	  
+	  .header .menuIcon #myHref {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	  }
+	  
+	  .header .menuIcon #myHref span {
+		  font-size: 20px;
+	  }
+	/* } */
+
+}
 
 	/* Hacks */
 	.clearfix:after {
