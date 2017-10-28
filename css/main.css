@@ -137,32 +137,6 @@
 		margin: 0;
 	}
 
-	/* header nav { */
-		/* float: right; */
-		/* margin: 15px 0 0 0; */
-	/* } */
-
-	/* header nav ul { */
-		/* overflow: auto; */
-	/* } */
-
-	/* header nav ul li { */
-		/* float: left; */
-		/* margin: 0 20px 0 0; */
-		/* text-transform: uppercase; */
-	/* } */
-
-	/* header nav ul li a { */
-		/* color: #999; */
-		/* font-family: 'Arial Black', 'Arial'; */
-		/* /* font-weight: 900; */ */
-	/* } */
-
-	/* Logo */
-	/* header .logo { */
-		/* float: left; */
-	/* } */	
-
 	/* Search */
 
 	.search {
@@ -500,7 +474,7 @@
 	footer .sponsors {
 		color: #09243F;
 		/* margin: 100px 0 0; */
-		margin: 20px 0 0 0;
+		margin: 40px 0 0 0;
 		text-align: center;
 		/* width: 330px; */
 		width: 100%;
@@ -622,11 +596,14 @@
 		list-style-image: none;
 	}
 
-	.menu li {
-		display: block;
-		padding:15px 0 15px 0;
-		border-bottom:#dddddd 1px solid;
-	}
+	/* .menu li { */
+		/* display: block; */
+		/* padding:15px 0 15px 0; */
+		/* border-bottom:#dddddd 1px solid; */
+		/* display: grid; */
+		/* vertical-align: middle; */
+		/* height: 60px; */
+	/* } */
 
 	.menu li:hover {
 		display: block;
@@ -662,11 +639,16 @@
 	  overflow: hidden;
 	}
 	.header .menu ul li {
-	  display: inline-block;
-	  float: left;
-	  list-style: none;
-	  padding: 0 0 0 5px;
-	  margin: 0;
+		display: grid;
+		vertical-align: middle;
+		height: 60px;
+		float: left;
+		list-style: none;
+		padding: 0 0 0 5px;
+		margin: 0;
+		width: 100%;
+		background: rgb(46, 46, 46);
+		border-top: 1px solid #4d4d4d;
 	}
 	.header .menuIcon {
 	  display: none;
@@ -712,12 +694,12 @@
 		-moz-transition: max-height 3s;
 		transition: max-height 3s;
 	  }
-	  .header .menu ul li {
-		display: block;
-		width: 100%;
-		background: rgb(46, 46, 46);
-		border-top: 1px solid #4d4d4d;
-	  }
+	  /* .header .menu ul li { */
+		/* display: block; */
+		/* width: 100%; */
+		/* background: rgb(46, 46, 46); */
+		/* border-top: 1px solid #4d4d4d; */
+	  /* } */
 	  .header .menu ul li:hover {
 		background: rgb(46, 46, 46);
 	  }
@@ -750,3 +732,32 @@
 		display:table;
 		clear:both;
 	}
+	
+	
+	
+	
+	/*header nav {
+		float: right;
+		margin: 15px 0 0 0;
+	}
+
+	header nav ul {
+		overflow: auto;
+	}
+
+	header nav ul li {
+		float: left;
+		margin: 0 20px 0 0;
+		text-transform: uppercase;
+	}
+
+	header nav ul li a {
+		color: #999;
+		font-family: 'Arial Black', 'Arial';
+		font-weight: 900;
+	}
+
+	Logo
+	header .logo {
+		float: left;
+	}	*/
