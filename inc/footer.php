@@ -8,7 +8,7 @@
             <a href="#"><img class="instagram" src="img/instagram.jpg" /></a>
         </div>
 
-        <p class="sitemap">Didn't find what you were looking for?  Try one of these pages.</p>
+        <p class="sitemap">Didn't find what you were looking for?<br/>Try one of these pages.</p>
 
         <nav>
             <ul>

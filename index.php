@@ -56,7 +56,7 @@
             <p class="topic">Is God Just a Human Invention? And Seventeen<br />Other Questions Raised by the New Atheists</p>
             <a class="social" href="https://www.facebook.com/seanmcdowellphd/"><img src="img/facebook-small-white.png" /></a>
             <a class="social" href="https://twitter.com/Sean_McDowell?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="img/twitter-small-white.png" /></a>
-            <a class="books" href="https://www.amazon.com/Sean-McDowell/e/B001JS9Z94">Book List</a>
+            <a class="books" style="margin-bottom: 15px" href="https://www.amazon.com/Sean-McDowell/e/B001JS9Z94">Book List</a>
         </div>
         
         <div class="speaker">
@@ -84,7 +84,7 @@
 <section>
     <div class="content">
         <h3 id="schedule">Schedule</h3>
-        <ul class="schedule">
+        <!--<ul class="schedule">
             <li>Saturday, June 17</li>
             <li>8:00 AM Registration</li>
             <li>9:00 AM Welcome &amp; Announcements</li>
@@ -99,7 +99,115 @@
             <li>2:45 PM Break</li>
             <li>3:00 PM Greg Koukl - Ambassadors for Christ</li>
             <li>4:15 PM Grand Prize Giveaway &amp; Closing Remarks</li>
-        </ul>
+        </ul>-->
+		<div class="schedule">
+			<h4>Saturday, June 17</h4>
+			<ul>
+				<li>Session I</li>
+				<li>
+					<div class="gridTopLeft">
+						8:00 AM
+					</div>
+					<div class="gridTopRight">
+						Registration
+					</div>
+				</li>
+				<li>
+					<div class="gridTopLeft">
+						9:00 AM
+					</div>
+					<div class="gridTopRight">
+						Welcome &amp; Announcements
+					</div>
+				</li>
+				<li>
+					<div class="gridTopLeft">
+						9:15 AM
+					</div>
+					<div class="gridTopRight">
+						Sean McDowell
+					</div>
+					<div class="gridBottom">
+						Atheist Encounter
+					</div>				
+				</li>
+				<li>
+					<div class="gridTopLeft">
+						10:30 AM
+					</div>
+					<div class="gridTopRight">
+						Break
+					</div>
+				</li>
+				<li>
+					<div class="gridTopLeft">
+						10:45 AM
+					</div>
+					<div class="gridTopRight">
+						Greg Koukl
+					</div>
+					<div class="gridBottom">
+						Columbo
+					</div>				
+				</li>
+				<li>
+					<div class="gridTopLeft">
+						12:30 PM
+					</div>
+					<div class="gridTopRight">
+						Lunch
+					</div>
+				</li>
+				<li><hr></li>
+				<li>Session II</li>
+				<li>
+					<div class="gridTopLeft">
+						1:15 PM
+					</div>
+					<div class="gridTopRight">
+						Giveaways &amp; Sponsors
+					</div>
+				</li>
+				<li>
+					<div class="gridTopLeft">
+						1:30 PM
+					</div>
+					<div class="gridTopRight">
+						Sean McDowell
+					</div>
+					<div class="gridBottom">
+						Understanding Intelligent Design
+					</div>
+				</li>
+				<li>
+					<div class="gridTopLeft">
+						2:45 AM
+					</div>
+					<div class="gridTopRight">
+						Break
+					</div>
+				</li>
+				<li>
+					<div class="gridTopLeft">
+						3:00 PM
+					</div>
+					<div class="gridTopRight">
+						Greg Koukl
+					</div>
+					<div class="gridBottom">
+						Ambassadors for Christ
+					</div>
+				</li>
+				<li>
+					<div class="gridTopLeft">
+						4:15 PM
+					</div>
+					<div class="gridTopRight">
+						Grand Prize Giveaway &amp; Closing Remarks
+					</div>
+				</li>
+			</ul>
+		</div>
         <img class="calendar" src="img/schedule.png" />
     </div>
 </section>
