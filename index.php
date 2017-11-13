@@ -12,7 +12,7 @@
         </p>
         
         <a class="register" href="https://www.eventbrite.com/e/reveal-a-conference-for-your-faith-tickets-28161612140" Target="_blank">Register for this conference</a>
-		<iframe src="https://player.vimeo.com/video/212149699" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br><br> 
+		<iframe class="promoVideo" src="https://player.vimeo.com/video/212149699" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br><br> 
         <nav class="pageNav">
             <ul>
                 <li>
@@ -84,22 +84,6 @@
 <section>
     <div class="content">
         <h3 id="schedule">Schedule</h3>
-        <!--<ul class="schedule">
-            <li>Saturday, June 17</li>
-            <li>8:00 AM Registration</li>
-            <li>9:00 AM Welcome &amp; Announcements</li>
-            <li>Session I</li>
-            <li>9:15 AM Sean McDowell - Atheist Encounter</li>
-            <li>10:30 AM Break</li>
-            <li>10:45 AM Greg Koukl - Columbo</li>
-            <li>12:00 PM Lunch</li>
-            <li>Session II</li>
-            <li>1:15 PM Giveaways &amp; Sponsors</li>
-            <li>1:30 PM Sean McDowell - Understanding Intelligent Design</li>
-            <li>2:45 PM Break</li>
-            <li>3:00 PM Greg Koukl - Ambassadors for Christ</li>
-            <li>4:15 PM Grand Prize Giveaway &amp; Closing Remarks</li>
-        </ul>-->
 		<div class="schedule">
 			<h4>Saturday, June 17</h4>
 			<ul>
@@ -158,7 +142,9 @@
 						Lunch
 					</div>
 				</li>
-				<li><hr></li>
+			</ul>
+			<hr>
+			<ul>
 				<li>Session II</li>
 				<li>
 					<div class="gridTopLeft">

@@ -8,48 +8,50 @@
             <a href="#"><img class="instagram" src="img/instagram.jpg" /></a>
         </div>
 
-        <!--<p class="sitemap">Didn't find what you were looking for?<br/>Try one of these pages.</p>
+		<div class="sitemapNav">
+			<p class="sitemap">Didn't find what you were looking for?  Try one of these pages.</p>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="about.php">About</a>
-                    <ul>
-                        <li>
-                            <a href="about.php#location">Location</a>
-                        </li>
-                        <li>
-                            <a href="about.php#sponsors">Sponsors</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="sessions.php">Sessions</a>
-                    <ul>
-                        <li>
-                            <a href="sessions.php#speakers">Speakers</a>
-                        </li>
-                        <li>
-                            <a href="sessions.php#schedule">Schedule</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="https://www.eventbrite.com/e/reveal-a-conference-for-your-faith-tickets-28161612140" Target="_blank">Tickets</a>
-                </li>
-                <li>
-                    <a href="contact.php">Contact Us</a>
-                    <ul>
-                        <li>
-                            <a href="contact.php#updates">Updates</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>-->
+			<nav>
+				<ul>
+					<li>
+						<a href="/">Home</a>
+					</li>
+					<li>
+						<a href="about.php">About</a>
+						<ul>
+							<li>
+								<a href="about.php#location">Location</a>
+							</li>
+							<li>
+								<a href="about.php#sponsors">Sponsors</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="sessions.php">Sessions</a>
+						<ul>
+							<li>
+								<a href="sessions.php#speakers">Speakers</a>
+							</li>
+							<li>
+								<a href="sessions.php#schedule">Schedule</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="https://www.eventbrite.com/e/reveal-a-conference-for-your-faith-tickets-28161612140" Target="_blank">Tickets</a>
+					</li>
+					<li>
+						<a href="contact.php">Contact Us</a>
+						<ul>
+							<li>
+								<a href="contact.php#updates">Updates</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
     </div>
     
     <div class="sponsors">
