@@ -42,10 +42,10 @@
 			</div>
 			<div class="menuMobile">
 				<ul>
-					<li><a href="about.php">About</a></li>
-					<li><a href="/#schedule">Schedule</a></li>
-					<li><a href="https://www.eventbrite.com/e/reveal-a-conference-for-your-faith-tickets-28161612140" Target="_blank">Tickets</a></li>
-					<li><a href="contact.php">Contact Us</a></li>
+					<a href="about.php"><li>About</li></a>
+					<a href="/#schedule"><li>Schedule</li></a>
+					<a href="https://www.eventbrite.com/e/reveal-a-conference-for-your-faith-tickets-28161612140" Target="_blank"><li>Tickets</li></a>
+					<a href="contact.php"><li>Contact Us</li></a>
 				</ul>
 			</div>
 		

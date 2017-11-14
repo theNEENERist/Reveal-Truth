@@ -11,6 +11,7 @@
 		background: #527BBD;
 		font-family: 'LuzSans-Book';
 		font-size: 14px;
+		margin-top: -10px;
 	}
 
 	/* Page */
@@ -125,17 +126,15 @@
 	.searchMobile {
 		background: #f6f6f6;
 		border-radius: 20px;
-		margin: 20px 20px 0 0;
 		max-height: 0px;
 		margin: 0 auto;
 		width: 250px;
 		margin-top: 10px;
 	}
 	
-	#searchDivMobile {
+	#searchDiv {
 		transition: max-height 4s;
 		max-height: 0;		
-		border: 0;
 		border: 0;
 		background: gray;
 		float: left;
@@ -152,7 +151,7 @@
 		transition: display 4s;
 	}
 		
-	#searchDivMobile.searchOpen, .searchMobile.searchOpen, .searchMobile input[type=text].searchOpen, .searchMobile input[type=submit].searchOpen  {
+	#searchDiv.searchOpen, .searchMobile.searchOpen, .searchMobile input[type=text].searchOpen, .searchMobile input[type=submit].searchOpen  {
 		max-height: 500px;
 		transition: max-height 4s;
 	}
@@ -189,7 +188,6 @@
 		color: #9f958b;
 		height: 28px;
 		font-size: 1em;
-		margin: 0 0 0 15px;
 		padding: 0;
 		border: 1px solid #e8e8e8;
 		border-radius: 20px;
@@ -500,28 +498,28 @@
 	}
 
 	/*Hamburger Menu*/	
-.hamburger{
-	background:none;
-	line-height:45px;
-	padding:5px 15px 0px 15px;
-	color:#FFF;
-	border:0;
-	font-size:3em;
-	font-weight:bold;
-	cursor:pointer;
-	outline:none;
-}
-.cross{
-  background:none;
-  padding:7px 15px 0px 15px;
-  color:#FFF;
-  border:0;
-  font-size:3em;
-  line-height:50px;
-  font-weight:bold;
-  cursor:pointer;
-  outline:none;
-}
+	.hamburger{
+		background:none;
+		line-height:45px;
+		padding:5px 15px 0px 15px;
+		color:#FFF;
+		border:0;
+		font-size:3em;
+		font-weight:bold;
+		cursor:pointer;
+		outline:none;
+	}
+	.cross{
+	  background:none;
+	  padding:7px 15px 0px 15px;
+	  color:#FFF;
+	  border:0;
+	  font-size:3em;
+	  line-height:50px;
+	  font-weight:bold;
+	  cursor:pointer;
+	  outline:none;
+	}
 
 	/* Mobile Menu */
 	.menuMobile{
@@ -550,7 +548,7 @@
 	.menuMobile ul li a {
 		text-decoration:none;
 		margin: 0px;
-		color:#666;
+		color:#fff;
 	}
 
 	.menuMobile ul li a:hover {
@@ -560,7 +558,7 @@
 
 	.menuMobile a {
 		text-decoration:none;
-		color:#666;
+		color:#fff;
 	}
 
 	.menuMobile a:hover {
@@ -574,17 +572,19 @@
 	  margin: 0;
 	  overflow: hidden;
 	}
-	.header .menuMobile ul li {
+	.header .menuMobile ul a li {
 		display: grid;
 		vertical-align: middle;
-		height: 60px;
 		float: left;
 		list-style: none;
-		padding: 0 0 0 5px;
+		padding: 15px 0 15px 0;
 		margin: 0;
 		width: 100%;
 		background: rgb(46, 46, 46);
 		border-top: 1px solid #4d4d4d;
+		color: #fff;
+		text-shadow: #848484 0px 1px 2px;
+		width: 100%;
 	}
 	.header .menuIcon {
 	  display: none;
@@ -634,13 +634,6 @@
 	.header .menuMobile ul li:hover {
 		background: rgb(46, 46, 46);
 	}
-  
-	.header .menuMobile ul li a {
-		color: #fff;
-		text-shadow: #848484 0px 1px 2px;
-		padding: 10px 0;
-		width: 100%;
-	}
 	
 	.header .menuIcon, .header .menuMobile {
 		display: inline-block;
@@ -669,7 +662,7 @@
 		clear:both;
 	}
 	
-	@media all and (min-width: 767px) {
+	@media all and (min-width: 900px) {
 		/* Background */
 		html, body {
 			margin: 0;
@@ -680,6 +673,7 @@
 			background: #527BBD;
 			font-family: 'LuzSans-Book';
 			font-size: 14px;
+			margin-top: -10px;
 		}
 
 
@@ -789,7 +783,7 @@
 		}
 		
 		.header .menuIcon, .header .menuMobile {
-			visibility: hidden;
+			display: none;
 		}
 
 
@@ -841,7 +835,7 @@
 
 
 		/* Search */
-		#btnSearch, .searchDivMobile {
+		#btnSearch, #searchDiv {
 			display: none;
 		}
 		
