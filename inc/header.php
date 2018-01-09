@@ -44,7 +44,7 @@
 							<ul>
 								<li><a href="about.php">About the Conference</a></li>
 								<li><a href="#location">Location</a></li>
-								<li><a href="#">Committee</li>
+								<li><a href="#">Committee</a></li>
 								<li><a href="#">Conference Partners</a></li>
 							</ul>
 						</nav>
