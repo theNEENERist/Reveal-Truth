@@ -1,37 +1,40 @@
 <header>
     <div id="headerContent">
-		<?php include 'logo.php'?>
-		
-		<!--<input type="button" id="btnSearch" />
-		
-		<div id="searchDiv">
-			<form class="searchMobile" action="https://www.google.com/search" method="get">
-				<input type="text" name="qMobile" placeholder="Search the site" />
+		<div id="logo" class="menuUp">
+			<?php include 'logo.php'?>
+			<div id="navToggle"><a href="#">Menu</a></div>
+			<!--<input type="button" id="btnSearch" />
+			
+			<div id="searchDiv">
+				<form class="searchMobile" action="https://www.google.com/search" method="get">
+					<input type="text" name="qMobile" placeholder="Search the site" />
+					<input type="submit" value="Search" />
+					<input type="hidden" name="as_sitesearchMobile" value="http://www.reveal-truth.com/" />
+				</form>
+			</div>
+			
+			<form class="search" action="https://www.google.com/search" method="get">
+				<input type="text" name="q" placeholder="Search the site" />
 				<input type="submit" value="Search" />
-				<input type="hidden" name="as_sitesearchMobile" value="http://www.reveal-truth.com/" />
+				<input type="hidden" name="as_sitesearch" value="http://www.reveal-truth.com/" />
 			</form>
+
+			<div class="social">
+				<a class="email" href="contact.php">Email</a>
+				<a class="facebook" href="https://www.facebook.com/revealconferences/?fref=ts" Target="_blank">Facebook</a>
+			</div>-->
+
+			<!--<div class="header clearfix">-->
+				<!--<nav>
+					<ul>
+						<li><a href="about.php">About</a></li>
+						<li><a href="/#schedule">Schedule</a></li>
+						<li><a href="https://www.eventbrite.com/e/reveal-a-conference-for-your-faith-tickets-28161612140" Target="_blank">Tickets</a></li>
+						<li><a href="contact.php">Contact Us</a></li>
+					</ul>
+				</nav>-->
 		</div>
 		
-		<form class="search" action="https://www.google.com/search" method="get">
-            <input type="text" name="q" placeholder="Search the site" />
-            <input type="submit" value="Search" />
-            <input type="hidden" name="as_sitesearch" value="http://www.reveal-truth.com/" />
-        </form>
-
-        <div class="social">
-            <a class="email" href="contact.php">Email</a>
-            <a class="facebook" href="https://www.facebook.com/revealconferences/?fref=ts" Target="_blank">Facebook</a>
-        </div>-->
-
-        <!--<div class="header clearfix">-->
-			<!--<nav>
-				<ul>
-					<li><a href="about.php">About</a></li>
-					<li><a href="/#schedule">Schedule</a></li>
-					<li><a href="https://www.eventbrite.com/e/reveal-a-conference-for-your-faith-tickets-28161612140" Target="_blank">Tickets</a></li>
-					<li><a href="contact.php">Contact Us</a></li>
-				</ul>
-			</nav>-->
 		
 			<nav>
 				<ul>
@@ -68,7 +71,7 @@
 					<li><a href="#">Contact Us</a></li>
 				</ul>
 			</nav>
-		</div>
+		
 			<!--<div class="menuIcon">
 				<a href="#" id="myHref">
 					<button class="hamburger">&#9776;</button>
@@ -91,24 +94,24 @@
 					$("#navToggle a").click(function(e){
 						e.preventDefault();
 						
-						$("header > nav").slideToggle("medium");
+						$("header > #headerContent > nav").slideToggle("medium");
 						$("#logo").toggleClass("menuUp menuDown");
 					});
 					
 					$(window).resize(function() {
 						if($( window ).width() >= "600") {
-							$("header > nav").css("display", "block");
+							$("header > #headerContent > nav").css("display", "inline-block");
 							
 							if($("#logo").attr('class') == "menuDown") {
 								$("#logo").toggleClass("menuUp menuDown");
 							}
 						}
 						else {
-							$("header > nav").css("display", "none");
+							$("header > #headerContent > nav").css("display", "none");
 						}
 					});
 					
-					$("header > nav > ul > li > a").click(function(e) {
+					$("header > #headerContent > nav > ul > li > a").click(function(e) {
 						if($( window ).width() <= "600") {
 							if($(this).siblings().size() > 0 ) {
 								$(this).siblings().slideToggle("fast")

@@ -11,6 +11,7 @@
 		
 		header .logo img {
 			zoom: 0;
+			margin-right: -70px;
 		}
 
 		footer .logo {
@@ -50,14 +51,17 @@
 		}
 		
 	header {
-		background-color: #09243F
+		background-color: #09243F;
+		min-height: 50px;
+		height: auto;
+		text-align: center;
 	}
 
-	header > .menuDown {
+	header  > #headerContent > .menuDown {
         box-shadow: 0 3px 5px rgba(0,0,0,.15);
     }
     
-    header > .menuUp {
+    header  > #headerContent > .menuUp {
         box-shadow: none;
     }
     
@@ -73,6 +77,7 @@
             right: 0; 
             top: 0; 
             transition: 300ms all ease; 
+			line-height: 39px;
         } 
             
             header > #headerContent > div#logo > div#navToggle:hover { 
@@ -98,6 +103,7 @@
         display: none;
         flex: 1;
         transform: 300ms all ease;
+		clear: both;
     }
     
         header > #headerContent nav > ul {
@@ -172,7 +178,7 @@
     header {
 		background-color: #09243F
         flex-direction: row;
-        line-height: 75px;
+        line-height: 80px;
         /* padding: 0 3rem; */
         /* position: fixed; */
         text-align: left;
@@ -190,7 +196,8 @@
             
     header > #headerContent > nav {
         background-color: transparent;
-        display: block;
+        display: inline-block;
+		width: 500px;
     }
     
         header > #headerContent > nav > ul {
@@ -322,7 +329,6 @@
 	}
 	
 	header #headerContent {
-		width: 900px;
 		margin: 0 auto;
 	}
 
@@ -372,13 +378,20 @@
 	header .logo img {
 		float: left;
 		zoom: 50%;
+		margin-top: 7px;
+	}
+	
+	header .logo .hiddenContent {
+		display: none;
 	}
 
 	.logo h1 {
-		color: #09243F;
+		/* color: #09243F; */
+		color: #FFF
 		font-weight: normal;
-		margin: 20px 0 0 0;
+		/* margin: 20px 0 0 0; */
 		text-transform: uppercase;
+		font-size: 32px;
 	}
 
 	.logo h2 {
@@ -986,6 +999,10 @@
 			width: 220px;
 			z-index: -1;
 		}
+		
+		header #headerContent {
+			width: 900px
+		}
 
 		section:nth-child(even):before, footer:before {
 			background: linear-gradient(to left, #fff, transparent);
@@ -1100,6 +1117,7 @@
 		
 		header .logo img {
 			zoom: 0;
+			margin-right: 0;
 		}
 
 		footer .logo {
