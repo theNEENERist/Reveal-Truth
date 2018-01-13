@@ -39,7 +39,7 @@
 				<li><a href="events.php">Events</a></li>
 				<li><a href="contact.php">Contact Us</a></li>
 			</ul>
-		</nav>		
+		</nav>
 
 		<script type="text/javascript">
 			$(document).ready(function() {

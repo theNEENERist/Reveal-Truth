@@ -19,36 +19,28 @@
 					<li>
 						<a href="about.php">About</a>
 						<ul>
-							<li>
-								<a href="about.php#location">Location</a>
-							</li>
-							<li>
-								<a href="about.php#sponsors">Sponsors</a>
-							</li>
+							<li><a href="about.php">About the Conference</a></li>
+							<li><a href="/#location">Location</a></li>
+							<li><a href="commitee.php">Committee</a></li>
+							<li><a href="partners.php">Conference Partners</a></li>
 						</ul>
 					</li>
 					<li>
 						<a href="sessions.php">Sessions</a>
 						<ul>
-							<li>
-								<a href="sessions.php#speakers">Speakers</a>
-							</li>
-							<li>
-								<a href="sessions.php#schedule">Schedule</a>
-							</li>
+							<li><a href="/#speakers">Featured Speakers</a></li>
+							<li><a href="/#schedule">Schedule</a></li>
 						</ul>
 					</li>
 					<li>
-						<a href="https://www.eventbrite.com/e/reveal-a-conference-for-your-faith-tickets-28161612140" Target="_blank">Tickets</a>
-					</li>
-					<li>
-						<a href="contact.php">Contact Us</a>
+						<a href="contact.php">Register</a>
 						<ul>
-							<li>
-								<a href="contact.php#updates">Updates</a>
-							</li>
+							<li><a href="https://www.eventbrite.com/e/reveal-a-conference-for-your-faith-tickets-41687574658">Tickets</a></li>
+							<li><a href="https://www.paypal.com/donate/?token=UjqaYREJsXgo_ZA04uoGMVwYUZxQwMSTCcjn9sH5OvONNaJBtq32w1WDV7xCHabU4WCmB0">Support the Conference</a></li>
 						</ul>
 					</li>
+					<li><a href="events.php">Events</a></li>
+					<li><a href="contact.php">Contact Us</a></li>
 				</ul>
 			</nav>
 		</div>
