@@ -9,6 +9,14 @@
 		margin: 20px 0;
 	}
 	
+	footer .logo h1 {
+		margin: 3px 0 0 70px;
+	}
+	
+	footer .logo h2 {
+		margin-left: 70px;
+	}
+	
 	.logo {
 		font-family: 'arial';
 		overflow: auto;
@@ -430,20 +438,20 @@
 	}
 
 	.speaker1 {
-			background: url('../img/Frank_ Turek_black_white.jpg');
-		}
+		background: url('../img/Frank_ Turek_black_white.jpg');
+	}
 
-		.speaker1:hover {
-			background: url('../img/Frank_ Turek_color.jpg');
-		}
+	.speaker1:hover {
+		background: url('../img/Frank_ Turek_color.jpg');
+	}
 
-		.speaker2 {
-			background: url('../img/robert_bowman_black_white.jpg');
-		}
+	.speaker2 {
+		background: url('../img/robert_bowman_black_white.jpg');
+	}
 
-		.speaker2:hover {
-			background: url('../img/robert_bowman_color.jpg');
-		}
+	.speaker2:hover {
+		background: url('../img/robert_bowman_color.jpg');
+	}
 
 	.speaker .social {
 		display: inline-block;
@@ -548,11 +556,13 @@
 
 	/* Footer */
 	footer {
-		padding-bottom: 20px;
+		padding-bottom: 0 0 20px 0;
 	}
 
-	footer .summary, footer .sponsors {
-		float: left;
+	
+	footer .sponsorImg {
+		display: inline-block;
+		vertical-align: middle;
 	}
 
 	footer .summary {
@@ -569,7 +579,7 @@
 
 	footer .sponsors {
 		color: #09243F;
-		margin: 40px 0 0 0;
+		/* margin: 40px 0 0 0; */
 		text-align: center;
 		width: 100%;
 	}
@@ -605,7 +615,7 @@
 	}
 
 	footer .sitemapNav {
-		display: none;
+		width: 100%;
 	}
 		
 	footer nav {
@@ -617,7 +627,7 @@
 	}
 
 	footer li {
-		margin: 4px 0;
+		margin: 8px 0;
 	}
 
 	footer li:first-child {
@@ -629,7 +639,34 @@
 	}
 
 	footer nav a {
-		color: #000;
+		color: #fff;
+		margin-bottom: 30px;
+	}
+	
+	footer nav a:hover {
+		color: yellow;
+	}
+	
+	.footerEnd {
+		padding-bottom: 20px;
+		background: #09243F;
+		color: #fff;
+		position: relative;
+		width: 100%;
+	}
+	
+	footer .footerEndCenter {
+		width: 100%;
+		justify-content: space-around;
+	}
+	
+	footer .navColumns {
+		width: 33%; 
+		float: left;
+	}
+	
+	footer .navColumns li a {
+		font-size: 16px;
 	}
 
 	footer .copyright {
@@ -682,7 +719,7 @@
 			position: relative;
 		}
 
-		section:nth-child(even), .content, footer {
+		section:nth-child(even), .content {
 			width: 784px;
 		}
 		
@@ -699,12 +736,12 @@
 			width: 1000px
 		}
 
-		section:nth-child(even):before, footer:before {
+		section:nth-child(even):before {
 			background: linear-gradient(to left, #fff, transparent);
 			left: -220px;
 		}
 
-		section:nth-child(even):after, footer:after {
+		section:nth-child(even):after {
 			background: linear-gradient(to right, #fff, transparent);
 			right: -220px;
 		}
@@ -740,6 +777,8 @@
 
 		footer .logo {
 			margin: 20px 0;
+			width: 330px;
+			float: left;
 		}
 		
 		header .logo {
@@ -802,8 +841,11 @@
 			font-family: 'Arial Black', 'Arial';
 			font-size: 30px;
 			font-weight: 900;
-			margin: 0 0 40px 0;
 			text-transform: uppercase;
+		}
+		
+		.content h3 {
+			margin: 0 0 40px 0;
 		}
 
 		.text {
@@ -939,27 +981,22 @@
 
 		/* Footer */
 		footer {
-			padding-bottom: 20px;
+			padding: 0;
 		}
-
-		footer .summary, footer .sponsors {
-			float: left;
-		}
-
-		footer .summary {
-			width: 450px;
-		}
-
+		
 		footer .sponsors {
 			color: #09243F;
-			margin: 100px 0 0;
 			text-align: center;
-			width: 330px;
 		}
-
+		
 		footer .sponsor {
 			display: inline-block;
-			margin: px;
+			vertical-align: middle;
+		}
+
+		
+		footer .sponsorImg .bhpublishing, footer .sponsorImg .kcm {
+			zoom: 70%;
 		}
 
 		.shively {
@@ -989,10 +1026,13 @@
 		
 		footer .sitemapNav {
 			display: block;
+			width: 650px;
+			float: right;
+			margin-top: 20px;
 		}
 
 		footer nav {
-			margin: 0 0 0 130px;
+			margin: 0;
 		}
 
 		footer ul ul {
@@ -1010,9 +1050,14 @@
 		footer li:last-child {
 			margin-bottom: 0;
 		}
-
-		footer nav a {
-			color: #000;
+		
+		footer .footerEndCenter {
+			width: 1100px;
+			margin: 0 auto;
+		}
+		
+		footer .navColumnsContainer {
+			width: 675px;
 		}
 
 		footer .copyright {
