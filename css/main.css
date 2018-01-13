@@ -1,9 +1,5 @@
 /* Mobile */
-	
-	header .logo .hiddenContent {
-		display: block;
-	}
-	
+		
 	header .logo img {
 		zoom: 0;
 		margin-right: -70px;
@@ -161,7 +157,7 @@
 	}
 
 /* Medium screens */
-@media all and (min-width: 600px) {
+@media all and (min-width: 900px) {
     header > #headerContent > div#logo > div#navToggle {
         display: none;    
     }
@@ -170,8 +166,6 @@
 		background-color: #09243F
         flex-direction: row;
         line-height: 90px;
-        /* padding: 0 3rem; */
-        /* position: fixed; */
         text-align: left;
         width: 100%;
     }
@@ -436,20 +430,20 @@
 	}
 
 	.speaker1 {
-		background: url('../img/sean-mcdowell-b&w.jpg');
-	}
+			background: url('../img/Frank_ Turek_black_white.jpg');
+		}
 
-	.speaker1:hover {
-		background: url('../img/sean-mcdowell-color.jpg');
-	}
+		.speaker1:hover {
+			background: url('../img/Frank_ Turek_color.jpg');
+		}
 
-	.speaker2 {
-		background: url('../img/greg-koukl-b&w.jpg');
-	}
+		.speaker2 {
+			background: url('../img/robert_bowman_black_white.jpg');
+		}
 
-	.speaker2:hover {
-		background: url('../img/greg-koukl-color.jpg');
-	}
+		.speaker2:hover {
+			background: url('../img/robert_bowman_color.jpg');
+		}
 
 	.speaker .social {
 		display: inline-block;
@@ -511,6 +505,7 @@
 	.schedule .gridBottom {
 		margin: 8px 0 0 20%;
 		display: inline-block;
+		font-size: 12px;
 	}
 
 	.calendar {
@@ -878,22 +873,6 @@
 			width: 178px;
 		}
 
-		.speaker1 {
-			background: url('../img/sean-mcdowell-b&w.jpg');
-		}
-
-		.speaker1:hover {
-			background: url('../img/sean-mcdowell-color.jpg');
-		}
-
-		.speaker2 {
-			background: url('../img/greg-koukl-b&w.jpg');
-		}
-
-		.speaker2:hover {
-			background: url('../img/greg-koukl-color.jpg');
-		}
-
 		.speaker .social {
 			display: inline-block;
 			margin: 10px 5px;
@@ -928,10 +907,19 @@
 			padding: 0 0 0 20px;
 			text-align: left;
 			text-transform: uppercase;
+			max-width: 448px;
 		}
 
 		.schedule li {
 			margin: 8px 0;
+		}
+		
+		.schedule .hr1 {
+			margin-top: 65px;
+		}
+		
+		.schedule .hr2 {
+			margin-top: 35px;
 		}
 		
 		.calendar {
