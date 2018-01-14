@@ -5,7 +5,6 @@
 			<div class="sponsorImg">
 				<a class="sponsor bobrussell" href="http://www.bobrussell.org/"><img src="img/sponsor-bob-russell.png" /></a>
 				<a class="sponsor hikes point" href="http://www.hikespointchristian.com/"><img src="img/sponsor-hikes-point.png" /></a>
-				<a class="sponsor bhpublishing" href="http://www.bhpublishinggroup.com/"><img src="img/sponsor-b-and-h-publishing.png" /></a>
 				<a class="sponsor lyndon" href="http://www.lyndonchristian.org/"><img src="img/sponsor-lyndon.png" /></a>
 				<a class="sponsor kcm" href="http://kentuckianachristianmission.weebly.com/"><img src="img/sponsor-kcm.png" /></a>
 				<a class="sponsor cbs" href="http://cibs-ky.com/"><img src="img/sponsor-cbs.png" /></a>
