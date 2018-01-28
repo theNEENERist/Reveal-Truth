@@ -2,7 +2,101 @@
 <?php include 'inc/preContent.php'?>
 
 <section>
+	<div class="content specEvents">
+		<span id="specEvent" style="margin:0; font-size: 30px; font-family: 'Arial';"><span style="font-weight: 900;">FEBRUARY EVENTS</span> in 2018</span>
+		<div class="specEventsContainer">
+			<div class="eventDiv">
+				<ul>
+					<li>
+						<div class="gridTopLeft ius">
+							<h4>February 7</h4>
+						</div>
+					</li>
+					<li>
+						<div class="gridTopLeft">
+							Frank Turek
+						</div>
+					</li>
+					<li>
+						<div class="gridTopLeft">
+							<span>Indiana University Southeast</span>
+						</div>
+					</li>
+					<li>
+						<div class="gridTopLeft">
+							<span>7:00 PM - 10:00 PM<span class="hiddenContent"><br><br><br></span></span>
+						</div>
+					</li>
+					<li>
+						<div class="gridTopLeft">
+							<a target="_blank" href="https://www.facebook.com/events/154834005303865/"><img src="img/facebook2.jpg"></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="eventDiv midCol">
+				<ul>
+					<li>
+						<div class="gridTopLeft uofl">
+							<h4>February 8</h4>
+						</div>
+					</li>
+					<li>
+						<div class="gridTopLeft">
+							Frank Turek
+						</div>
+					</li>
+					<li>
+						<div class="gridTopLeft">
+							<span>University of Louisville</span>
+						</div>
+					</li>
+					<li>
+						<div class="gridTopLeft">
+							<span>7:30 PM - 9:30 PM<span class="hiddenContent"><br><br><br></span></span>
+						</div>
+					</li>
+					<li>
+						<div class="gridTopLeft">
+							<a target="_blank" href="https://www.facebook.com/events/817198708451381/"><img src="img/facebook2.jpg"></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="eventDiv">
+				<ul>
+					<li>
+						<div class="gridTopLeft stm">
+							<h4>February 8</h4>
+						</div>
+					</li>
+					<li>
+						<div class="gridTopLeft">
+							Jorge Gil
+						</div>
+					</li>
+					<li>
+						<div class="gridTopLeft">
+							<span>SANTA MAR&Iacute;A DE LA ANUNCIACI&Oacute;N IGLESIA CAT&Oacute;LICA</span>
+						</div>
+					</li>
+					<li>
+						<div class="gridTopLeft">
+							<span>7:00 PM</span>
+						</div>
+					</li>
+					<li>
+						<div class="gridTopLeft">
+							<a target="_blank" href="https://www.facebook.com/events/331573433916081/"><img src="img/facebook2.jpg"></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<hr/>
+	</div>
     <div class="content">
+		<h3 id="revealConf">Reveal Conference</h3>
         <p class="event">June 30, 2018<br />Hikes Point Christian Church</p>
         <p>2601 Hikes Lane, Louisville, KY 40218</p>
         
@@ -42,7 +136,6 @@
                 </li>
 			</ul>
         </nav>
-    </div>
     </div>
 </section>
 
