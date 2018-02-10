@@ -11,7 +11,7 @@
             <span class="price">$5 <span class="price-date">Students</span></span>
         </p>
         
-        <a class="register" href="https://www.eventbrite.com/e/reveal-a-conference-for-your-faith-tickets-28161612140" Target="_blank">Register for this conference</a>
+        <a class="register" href="https://www.eventbrite.com/e/reveal-a-conference-for-your-faith-tickets-41687574658" Target="_blank">Register for this conference</a>
 		
         <nav class="pageNav">
             <ul>
