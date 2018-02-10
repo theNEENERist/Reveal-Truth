@@ -694,94 +694,6 @@
 		clear:both;
 	}
 	
-	.specEvents {
-		margin-bottom: 15px;
-	}
-	
-	.specEvents hr {
-		border: 0;
-		height: 2px;
-		margin:18px 0;
-		position:relative;
-		background-image: radial-gradient(#AAA, #FFF), radial-gradient(#AAA, #FFF);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff0000', endColorstr='#00ff0000',GradientType=1 ); /* IE6-9 */
-	}
-
-	hr:before {
-		content: "";
-		display: block;
-		border-top: solid 1px rgba(255,100,100,0.100);
-		width: 100%;
-		height: 1px;
-		position: absolute;
-		top: 50%;
-		z-index: 1;
-	}
-	
-	.specEventsContainer {
-		display: inline-block;
-		width: 90%;
-		margin: 0 20px 0 10px;
-	}
-	
-	.eventDiv {
-		float: left; 
-		width: 100%; 
-		padding: 10px;
-	}
-	
-	.eventDiv .gridTopLeft {
-		font-family: "Verdana";
-		font-size: 16px;
-		margin-top: 10px;
-	}
-	
-	.eventDiv h4 {
-		color: #fff;
-		font-size: 24px;
-		font-family: "Arial Black","Arial";
-		vertical-align: middle;
-		margin-top: 10px;
-	}
-	
-	.eventDiv img {
-		zoom: 70%;
-		margin-top: 5px;
-	}
-	
-	.ius, .uofl, .stm {
-		background: url('../img/ius-1.png');
-		zoom: 1;
-		height: 80px;
-		line-height: 80px;
-	}
-	
-	.ius {
-		background: url('../img/ius-1.png');
-	}
-	
-	.uofl {
-		background: url('../img/uofl-2.png');
-	}
-	
-	.stm {
-		background: url('../img/st-mary-3.png');
-	}
-	
-	.eventButton {
-		background: #09243F;
-		color: #fff;
-		display: block;
-		font-family: 'Arial Black', 'Arial';
-		font-weight: 900;
-		padding: 15px;
-		width: 50%;
-		text-transform: uppercase;
-		margin: 0 auto;
-		margin-top: 5px;
-		margin-bottom: 30px;
-	}
-	
 	@media all and (min-width: 900px) {
 		/* Background */
 		html, body {
@@ -939,37 +851,6 @@
 			font-size: 16px;
 			margin-bottom: 20px;
 			text-align: left;
-		}
-		
-		.specEventsContainer {
-			width: 100%;
-			display: flex;
-			margin: 0;
-		}
-		
-		.eventDiv {
-			width: 50%;
-			flex: 1;
-		}
-		
-		.eventDiv .hiddenContent {
-			display: inline;
-		}
-		
-		.eventDiv img {
-			zoom: 50%;
-		}
-		
-		.midCol {
-			background-image: radial-gradient(#AAA, #FFF), radial-gradient(#AAA, #FFF);
-			background-size:	2px 90%;
-			background-position: 0 50%, 100% 50%;
-			background-repeat:	no-repeat;
-		}
-				
-		#revealConf {
-			margin-bottom: 5px;
-			margin-top: 0;
 		}
 		
 		.event, .name {
