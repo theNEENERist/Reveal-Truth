@@ -13,8 +13,8 @@
 						<ul>
 							<li><a href="about.php">About the Conference</a></li>
 							<li><a href="/#location">Location</a></li>
-							<li><a href="commitee.php">Committee</a></li>
-							<li><a href="partners.php">Conference Partners</a></li>
+							<!-- <li><a href="commitee.php">Committee</a></li>
+							<li><a href="partners.php">Conference Partners</a></li> -->
 						</ul>
 					</nav>
 				</li>
@@ -31,8 +31,8 @@
 					<a href="#">Register <span class="toggle">Expand</span><span class="caret"></span></a>
 					<nav>
 						<ul>
-							<li><a href="https://www.eventbrite.com/e/reveal-a-conference-for-your-faith-tickets-41687574658">Tickets</a></li>
-							<li><a href="https://www.paypal.com/donate/?token=UjqaYREJsXgo_ZA04uoGMVwYUZxQwMSTCcjn9sH5OvONNaJBtq32w1WDV7xCHabU4WCmB0">Support the Conference</a></li>
+							<li><a href="https://www.eventbrite.com/e/reveal-a-conference-for-your-faith-tickets-51946596669">Tickets</a></li>
+							<li><a href="/sponsor.php">Support the Conference</a></li>
 						</ul>
 					</nav>
 				</li>

@@ -443,19 +443,19 @@
 	}
 
 	.speaker1 {
-		background: url('../img/Frank_ Turek_black_white.jpg');
+		background: url('../img/brett_kunkle_black_white.jpg');
 	}
 
 	.speaker1:hover {
-		background: url('../img/Frank_ Turek_color.jpg');
+		background: url('../img/brett_kunkle_color.jpg');
 	}
 
 	.speaker2 {
-		background: url('../img/robert_bowman_black_white.jpg');
+		background: url('../img/david_wood_black_white.jpg');
 	}
 
 	.speaker2:hover {
-		background: url('../img/robert_bowman_color.jpg');
+		background: url('../img/david_wood_color.jpg');
 	}
 
 	.speaker .social {
