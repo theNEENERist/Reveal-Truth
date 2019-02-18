@@ -13,7 +13,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="<?php echo isset($title) ? $title : "Reveal" ?>" />
 	<meta property="og:url" content="<?php echo 'https://www.' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" />
-	<meta property="og:image" content="https://www.reveal-truth.com/img/logo.jpg" />
+	<meta property="og:image" content="https://www.reveal-truth.com/img/reveal_facebook_blue.png" />
 	<meta property="og:description" content="The mission of the Reveal Apologetics Conference is to encourage and prepare the average Christian to be able to provide evidence for the truth of Christianity." />
  	<link href="/../img/favicon.ico" rel="icon">
     <?php include 'googleAnalytics.php'?>
